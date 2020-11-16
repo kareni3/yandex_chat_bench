@@ -1,0 +1,15 @@
+{
+  "name": "yandex_chat_server",
+  "version": "1.0.0",
+  "description": "Yandex Chat Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "e.ripachev/kareni3",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
