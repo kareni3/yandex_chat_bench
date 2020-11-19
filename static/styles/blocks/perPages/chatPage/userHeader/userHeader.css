@@ -1,0 +1,24 @@
+.user-header {
+    background-color: white;
+    border-bottom: 1px solid #EAEAEA;
+    height: 47px;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.user-header__user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-header__menu-button {
+    margin-right: -6px;
+    height: 100%;
+    width: 47px;
+}
+
+.user-header__avatar {
+    margin-right: 12px;
+    height: 27px;
+    width: 27px;
+}

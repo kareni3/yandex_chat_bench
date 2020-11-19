@@ -1,0 +1,11 @@
+.chat-navigation {
+    padding: 12px;
+    border-right: 1px solid #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-navigation__search {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #EAEAEA;
+}

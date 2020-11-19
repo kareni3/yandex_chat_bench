@@ -1,0 +1,39 @@
+@import "./userHeader/userHeader.css";
+@import "./mainHeader/mainHeader.css";
+@import "./chatNavigation/chatNavigation.css";
+@import "./chatList/chatList.css";
+@import "./chat/chat.css";
+@import "./messageForm/messageForm.css";
+@import "./chatActions/chatActions.css";
+@import "./chatHistory/chatHistory.css";
+@import "./message/message.css";
+@import "./messageList/messageList.css";
+
+.chat-page {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 310px auto;
+    grid-template-rows: 47px auto;
+    grid-template-areas:
+    "header chat-field"
+    "chat-block chat-field";
+}
+
+.chat-page__header {
+    grid-area: header;
+}
+
+.chat-page__chat-block {
+    grid-area: chat-block;
+}
+
+.chat-page__chat-field {
+    grid-area: chat-field;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-page__chat-field-empty {
+    grid-area: chat-field;
+}
+

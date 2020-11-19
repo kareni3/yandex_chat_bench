@@ -1,0 +1,8 @@
+.empty-block {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    line-height: 2;
+}

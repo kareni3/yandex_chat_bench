@@ -1,0 +1,22 @@
+.search-form {
+    position: relative;
+}
+
+.search-form__input {
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.search-form__input:focus, .search-form__input:not(:placeholder-shown) {
+    text-align: left;
+    padding-left: calc(13px + 6px*2);
+}
+
+.search-form__icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 6px;
+}

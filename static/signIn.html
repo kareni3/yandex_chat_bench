@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Yandex Chat - Bench</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/main/pages/authPage/authPage.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="auth-page">
+    <section class="auth-component auth-page__auth-component">
+        <div class="auth-component__container">
+            <h1 class="logo auth-component__logo">BENCH</h1>
+
+            <form name="signIn" action="#" method="post" class="form form_type_auth auth-component__form">
+                <div class="input-block form__input-block">
+                    <label class="label input-block__label text text_type_secondary text_size_mini">
+                        Почта
+                        <input type="email" name="email" placeholder="Почта" class="input input-block__input">
+                    </label>
+                    <span class="text text_type_error input-block__error">Такого пользователя не существует</span>
+                </div>
+
+                <div class="input-block form__input-block">
+                    <label class="label input-block__label text text_type_secondary text_size_mini">
+                        Пароль
+                        <input type="password" name="password" placeholder="Пароль" class="input input-block__input">
+                    </label>
+                    <span class="text text_type_error input-block__error">Пожалуйста, введите пароль</span>
+                </div>
+
+                <div class="auth-form__link-wrapper">
+                    <a href="#" class="link">Я забыл пароль</a>
+                </div>
+
+                <div class="auth-form__button-wrapper">
+                    <button type="submit" class="button">Войти</button>
+                </div>
+            </form>
+
+            <div class="auth-form__bottom-link-block">
+                <span class="text text_type_secondary text_size_mini">У меня нет аккаунта</span>
+                <a href="#" class="link">Зарегистрироваться</a>
+            </div>
+        </div>
+    </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Yandex Chat - Bench</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/main/pages/userSettingsPage/userSettingsPage.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="user-settings-page">
+    <button class="turn-back-button user-settings-page__turn-back-button">
+        <i class="icon icon__turn-back turn-back__icon"></i>
+    </button>
+
+    <div class="user-settings-page__container">
+        <section class="user-settings user-settings-page__user-settings">
+            <div class="avatar user-settings__avatar">
+                <img class="avatar__image" src="../static/images/common/avatar/avatar_default.png" alt="empty avatar">
+                <button class="avatar__button">Сменить<br>фото</button>
+            </div>
+
+            <h1 class="text text_size_big text_weight_medium user-settings__user-name">Грэта Тунберг</h1>
+
+            <form name="editProfileSettings" action="#" method="post" class="form">
+                <ul class="settings-list user-settings__settings-list">
+                    <li class="settings-item settings-list__settings-item">
+                        <span class="text text_weight_medium">Почта</span>
+                        <input type="email"
+                               name="email"
+                               value="greta@gret.gre"
+                               placeholder="alexPushkin@some_mail.com"
+                               class="settings-item__input text text_type_secondary"
+                        >
+                    </li>
+
+                    <li class="settings-item settings-list__settings-item">
+                        <span class="text text_weight_medium">Логин</span>
+                        <input type="text"
+                               name="login"
+                               value="ZaVDV"
+                               placeholder="alexPushkin"
+                               class="settings-item__input text text_type_secondary"
+                        >
+                    </li>
+
+                    <li class="settings-item settings-list__settings-item">
+                        <span class="text text_weight_medium">Имя</span>
+                        <input type="text"
+                               name="firstname"
+                               value="Грета"
+                               placeholder="Александр"
+                               class="settings-item__input text text_type_secondary"
+                        >
+                    </li>
+
+                    <li class="settings-item settings-list__settings-item">
+                        <span class="text text_weight_medium">Фамилия</span>
+                        <input type="text"
+                               name="lastname"
+                               value="Тумберг"
+                               placeholder="Пушин"
+                               class="settings-item__input text text_type_secondary"
+                        >
+                    </li>
+
+                    <li class="settings-item settings-list__settings-item">
+                        <span class="text text_weight_medium">Телефон</span>
+                        <input type="tel"
+                               name="telephone"
+                               value="8 (999) 999 99 99"
+                               placeholder="8 (999) 999 99 99"
+                               class="settings-item__input text text_type_secondary"
+                        >
+                    </li>
+                </ul>
+
+                <div class="form__submit form__submit_align_center">
+                    <button type="submit" class="button button_size_middle button_background_filled">Сохранить</button>
+                </div>
+            </form>
+
+            <div class="user-settings__cancel">
+                <a href="#" class="link">Отменить изменения</a>
+            </div>
+        </section>
+    </div>
+</div>
+</body>
+</html>

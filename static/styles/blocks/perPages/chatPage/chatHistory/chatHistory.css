@@ -1,0 +1,14 @@
+.chat-history {
+    height: 100%;
+    position: relative;
+    margin: 0 12px 12px 12px;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+}
+
+.chat-history__message-list {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

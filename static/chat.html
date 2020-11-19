@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Yandex Chat - Bench</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/main/pages/chatPage/chatPage.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="chat-page">
+    <header class="header chat-page__header main-header">
+        <button class="menu-button main-header__menu-button">
+            <i class="icon icon__main-menu menu-button__icon"></i>
+        </button>
+
+        <ul class="menu menu_type_main" hidden>
+            <li class="menu__item">
+                <i class="icon icon__add-contact"></i>
+                <span class="text text__regular">Добавить контакт</span>
+            </li>
+
+            <li class="menu__item">
+                <i class="icon icon__settings"></i>
+                <span class="text text__regular">Настройки профиля</span>
+            </li>
+
+            <li class="menu__item">
+                <i class="icon icon__exit"></i>
+                <span class="text text__regular">Выйти</span>
+            </li>
+        </ul>
+
+        <div class="logo main-header__logo">BENCH</div>
+    </header>
+
+    <section class="chat-navigation chat-page__chat-navigation">
+        <div class="chat-navigation__search">
+            <form class="form search-form" action="#">
+                <i class="icon icon__search search-form__icon"></i>
+                <input type="search" name="search" placeholder="Поиск" class="input search-form__input">
+            </form>
+        </div>
+
+        <ul class="chat-list chat-navigation__chat-list" >
+            <li class="chat chat-list__chat chat_status_is-active">
+                <div class="avatar chat__avatar">
+                    <img class="avatar__image" src="../static/images/users/1/avatar.png" alt="avatar">
+                </div>
+
+                <div class="chat__chat-message">
+                    <div class="chat__person-name">
+                        <span class="text text_weight_medium">Igor Petrov</span>
+                    </div>
+
+                    <div class="chat__message">
+                        <span class="text text_size_mini text_type_secondary">Ну и куда ты пропал братан?? вчера Ленка после мостов остановилась оБ>ождать</span>
+                    </div>
+                </div>
+
+                <div class="chat__info">
+                    <span class="chat__date text text_size_micro text_type_secondary">10:03</span>
+                    <span class="chat__message-counter">2</span>
+                </div>
+            </li>
+
+            <li class="chat chat-list__chat">
+                <div class="avatar chat__avatar">
+                    <img class="avatar__image" src="../static/images/users/1/avatar.png" alt="avatar">
+                </div>
+
+                <div class="chat__chat-message">
+                    <div class="chat__person-name">
+                        <span class="text text_weight_medium">Igor Petrov</span>
+                    </div>
+
+                    <div class="chat__message">
+                        <span class="text text_size_mini text_type_secondary">Ну и куда ты пропал братан?? вчера Ленка после мостов остановилась оБ>ождать</span>
+                    </div>
+                </div>
+
+                <div class="chat__info">
+                    <span class="chat__date text text_size_micro text_type_secondary">Вчера</span>
+                    <span class="chat__message-counter">1</span>
+                </div>
+            </li>
+
+            <li class="chat chat-list__chat">
+                <div class="avatar chat__avatar">
+                    <img class="avatar__image" src="../static/images/users/1/avatar.png" alt="avatar">
+                </div>
+
+                <div class="chat__chat-message">
+                    <div class="chat__person-name">
+                        <span class="text text_weight_medium">Igor Petrov</span>
+                    </div>
+
+                    <div class="chat__message">
+                        <span class="chat__message-owner">Вы:</span>
+                        <span class="text text_size_mini text_type_secondary">Ну и куда ты пропал братан?? вчера Ленка после мостов остановилась оБ>ождать</span>
+                    </div>
+                </div>
+
+                <div class="chat__info">
+                    <span class="chat__date text text_size_micro text_type_secondary">Пт</span>
+                    <span class="chat__message-counter" hidden>0</span>
+                </div>
+            </li>
+        </ul>
+
+        <div class="empty-block chat-block__empty-chat-list hidden">
+            <span class="text text_type_secondary">Как только добавишь пользователя, увидишь его здесь :)</span>
+        </div>
+    </section>
+    <section class="chat-field chat-page__chat-field">
+        <header class="header user-header">
+            <div class="user-header__user-info">
+                <div class="avatar user-header__avatar">
+                    <img class="avatar__image" src="../static/images/users/1/avatar.png" alt="avatar">
+                </div>
+
+                <div class="header__person-name">
+                    <span class="text text_weight_medium">Igor Petrov</span>
+                </div>
+            </div>
+
+            <button class="menu-button user-header__menu-button">
+                <i class="icon icon__user-actions-menu menu-button__icon"></i>
+            </button>
+
+            <ul class="menu menu_type_user-header" hidden>
+                <li class="menu__item">
+                    <i class="icon icon__plus"></i>
+                    <span class="text text__regular">Добавить пользователя</span>
+                </li>
+
+                <li class="menu__item">
+                    <i class="icon icon__minus"></i>
+                    <span class="text text__regular">Удалить пользователя</span>
+                </li>
+
+                <li class="menu__item">
+                    <i class="icon icon__delete"></i>
+                    <span class="text text__regular">Очистить историю</span>
+                </li>
+            </ul>
+        </header>
+
+        <div class="chat-history">
+            <ul class="message-list chat-history__message-list">
+                <li class="message message_type_sent message-list__message">
+                    <span class="text message__content">А, выпендриваться будем? Тогда я человек паук 🕷️</span>
+                    <span class="text text_type_secondary text_size_mini message__info">13:42</span>
+                </li>
+
+                <li class="message message_type_received message-list__message">
+                    <span class="text message__content">Какой Люк. Я бэтмен. И я не общаюсь с незнакомыми мне людьми потому что Я БЭТМЕН. ты услышал? Я бэтменЯ бэтменЯ бэтменЯ бэтменЯ бэтменЯ бэтменЯ бэтменЯ бэтмен</span>
+                    <span class="text text_type_secondary text_size_mini message__info">12:11</span>
+                </li>
+
+                <li class="message message_type_sent message-list__message">
+                    <span class="text message__content">Как кто КАРЛ? Я твой отец Люк</span>
+                    <span class="text text_type_secondary text_size_mini message__info">18:40</span>
+                </li>
+
+                <li class="message-list__date">
+                    <span class="text text_type_secondary">Вчера</span>
+                </li>
+
+                <li class="message message_type_received message-list__message">
+                    <span class="text message__content">Ты кто?</span>
+                    <span class="text text_type_secondary text_size_mini message__info">13:42</span>
+                </li>
+
+                <li class="message message_type_sent message-list__message">
+                    <span class="text message__content">Привет братан Привет братан Привет братан Привет братан Привет братан Привет братан Привет братан Привет братан Привет братан Привет братан Привет братан Привет братан Привет братан Привет братан Привет братан Привет братан как поживаешь сколько лет сколько зим приезжай в гости ждем целуем любим</span>
+                    <span class="text text_type_secondary text_size_mini message__info">12:11</span>
+                </li>
+
+
+                <li class="message message_type_sent message-list__message">
+                    <span class="text message__content">Привет братан как поживаешь сколько лет сколько зим приезжай в гости ждем целуем любим</span>
+                    <span class="text text_type_secondary text_size_mini message__info">11:40</span>
+                </li>
+
+                <li class="message-list__date">
+                    <span class="text text_type_secondary">3 сентября</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="chat-actions">
+            <button class="icon-button chat-actions__attach">
+                <i class="icon icon__attach icon-button__icon"></i>
+            </button>
+
+            <ul class="menu menu_type_attach chat-actions__attach-menu" hidden>
+                <li class="menu__item">
+                    <i class="icon icon__photo"></i>
+                    <span class="text text__regular">Фото или Видео</span>
+                </li>
+
+                <li class="menu__item">
+                    <i class="icon icon__file"></i>
+                    <span class="text text__regular">Файл</span>
+                </li>
+
+                <li class="menu__item">
+                    <i class="icon icon__location"></i>
+                    <span class="text text__regular">Локация</span>
+                </li>
+            </ul>
+
+            <form class="form message-form chat-actions__message-form" action="#" method="post">
+                <textarea name="message" rows="1" placeholder="Сообщение" class="textarea message-form__textarea"></textarea>
+
+                <button type="submit" class="icon-button">
+                    <i class="icon icon__sent-message icon-button__icon"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="empty-block chat-page__chat-field-empty chat-page__chat-field-empty hidden">
+        <span class="text text_type_secondary">
+            Первый раз здесь? <br>
+            <a href="#" class="link"> Кликай сюда</a>, чтобы добавить свой первый контакт! <br>
+            Или юзай ☰ в левой верхней части экрана :)
+        </span>
+    </section>
+
+    <section class="empty-block chat-page__chat-field-empty chat-page__chat-field-empty hidden">
+        <span class="text text_type_secondary">
+            Для начала общения выбери пользователя :)
+        </span>
+    </section>
+</div>
+
+
+<div class="modal__container modal_name_add-new-contact">
+    <div class="modal">
+        <h1 class="text text_size_big modal__title">Добавить новый контакт</h1>
+
+        <form name="login" action="#" method="post" class="form form_type_modal">
+            <div class="input-block form__input-block">
+                <label class="label input-block__label text text_type_secondary text_size_mini">
+                    Телефон
+                    <input type="tel" name="telephone" placeholder="Телефон" class="input input-block__input">
+                </label>
+                <span class="text text_type_error input-block__error">Поле не должно быть пустым</span>
+            </div>
+
+            <div class="input-block form__input-block">
+                <label class="label input-block__label text text_type_secondary text_size_mini">
+                    Имя
+                    <input type="text" name="firstname" placeholder="Имя" class="input input-block__input">
+                </label>
+                <span class="text text_type_error input-block__error">Поле не должно быть пустым</span>
+            </div>
+
+            <div class="input-block form__input-block">
+                <label class="label input-block__label text text_type_secondary text_size_mini">
+                    Фамилия
+                    <input type="text" name="lastname" placeholder="Фамилия" class="input input-block__input">
+                </label>
+                <span class="text text_type_error input-block__error">Поле не должно быть пустым</span>
+            </div>
+
+            <button type="submit" class="button button_background_filled form__submit">Добавить</button>
+        </form>
+    </div>
+
+    <div class="modal__background"></div>
+</div>
+
+
+<div class="modal__container modal_name_add-new-user">
+    <div class="modal">
+        <h1 class="text text_size_big modal__title">Добавить пользователя</h1>
+
+        <form name="login" action="#" method="post" class="form form_type_modal">
+
+            <div class="input-block form__input-block">
+                <label class="label input-block__label text text_type_secondary text_size_mini">
+                    Имя
+                    <input type="text" name="firstname" placeholder="Имя" class="input input-block__input">
+                </label>
+                <span class="text text_type_error input-block__error">Поле не должно быть пустым</span>
+            </div>
+
+            <div class="input-block form__input-block">
+                <label class="label input-block__label text text_type_secondary text_size_mini">
+                    Фамилия
+                    <input type="text" name="lastname" placeholder="Фамилия" class="input input-block__input">
+                </label>
+                <span class="text text_type_error input-block__error">Поле не должно быть пустым</span>
+            </div>
+
+            <button type="submit" class="button button_background_filled form__submit">Добавить</button>
+        </form>
+    </div>
+
+    <div class="modal__background"></div>
+</div>
+
+
+<div class="modal__container modal_name_remove-user">
+    <div class="modal">
+        <h1 class="text text_size_big modal__title">Удалить пользователя</h1>
+
+        <p class="text modal__paragraph modal__paragraph_size_small">Вы уверены, что хотите удалить пользователя "Сеня Гараж"?</p>
+
+        <form name="login" action="#" method="post" class="form form_type_modal">
+            <button type="submit" class="button button_background_filled form__submit">Удалить</button>
+        </form>
+    </div>
+
+    <div class="modal__background"></div>
+</div>
+
+<script type="module" src="./js/pages/chatPage/index.js"></script>
+</body>
+</html>

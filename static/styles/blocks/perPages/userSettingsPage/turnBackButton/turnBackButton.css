@@ -1,0 +1,15 @@
+.turn-back-button {
+    width: 80px;
+    align-items: center;
+}
+
+.turn-back-button:hover {
+    background-color: #CF0365;
+}
+
+.turn-back__icon {
+    margin: auto;
+    background-color: #CF0365;
+    border-radius: 50%;
+    padding: 6px;
+}

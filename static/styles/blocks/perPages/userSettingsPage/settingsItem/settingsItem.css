@@ -1,0 +1,22 @@
+.settings-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    flex-wrap: wrap;
+}
+
+.settings-item:not(:last-child)::after {
+    content: '';
+    border-bottom: 1px solid #EAEAEA;
+    width: 100%;
+}
+
+.settings-item__input {
+    text-align: end;
+    flex-grow: 1;
+}
+
+.settings-item__input::placeholder {
+    color: #bababa;
+}

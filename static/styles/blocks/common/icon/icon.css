@@ -1,0 +1,95 @@
+.icon {
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center center;
+}
+
+.icon__main-menu {
+    background-image: url('../../../../images/common/icons/mdi-light_menu.svg');
+    height: 24px;
+    width: 24px;
+}
+
+.icon__add-contact {
+    background-image: url('../../../../images/common/icons/mdi-light_account.svg');
+    height: 30px;
+    width: 30px;
+}
+
+.icon__settings {
+    background-image: url('../../../../images/common/icons/mdi-light_cog.svg');
+    height: 30px;
+    width: 30px;
+}
+
+.icon__exit {
+    background-image: url('../../../../images/common/icons/mdi-light_logout.svg');
+    height: 30px;
+    width: 30px;
+}
+
+.icon__search {
+    background-image: url('../../../../images/common/icons/mdi-light_search.svg');
+    height: 13px;
+    width: 13px;
+}
+
+.icon__user-actions-menu {
+    background-image: url('../../../../images/common/icons/mdi-light_dots-vertical.svg');
+    height: 24px;
+    width: 24px;
+}
+
+.icon__attach {
+    background-image: url('../../../../images/common/icons/mdi-light_paperclip.svg');
+    height: 32px;
+    width: 32px;
+}
+
+.icon__sent-message {
+    background-image: url('../../../../images/common/icons/mdi-light_arrow-right-circle.svg');
+    height: 32px;
+    width: 32px;
+}
+
+.icon__plus {
+    background-image: url('../../../../images/common/icons/mdi-light_plus.svg');
+    height: 32px;
+    width: 32px;
+}
+
+.icon__minus {
+    background-image: url('../../../../images/common/icons/mdi-light_minus.svg');
+    height: 32px;
+    width: 32px;
+}
+
+.icon__delete {
+    background-image: url('../../../../images/common/icons/mdi-light_delete.svg');
+    height: 32px;
+    width: 32px;
+}
+
+.icon__photo {
+    background-image: url('../../../../images/common/icons/mdi-light_message-photo.svg');
+    height: 32px;
+    width: 32px;
+}
+
+.icon__file {
+    background-image: url('../../../../images/common/icons/mdi-light_file.svg');
+    height: 32px;
+    width: 32px;
+}
+
+.icon__location {
+    background-image: url('../../../../images/common/icons/mdi-light_map-marker.svg');
+    height: 32px;
+    width: 32px;
+}
+
+.icon__turn-back {
+    background-image: url('../../../../images/common/icons/mdi-light_chevron-left.svg');
+    height: 42px;
+    width: 42px;
+}

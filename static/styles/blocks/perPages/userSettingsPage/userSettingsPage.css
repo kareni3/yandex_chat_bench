@@ -1,0 +1,22 @@
+@import "./userSettings/userSettings.css";
+@import "./settingsList/settingsList.css";
+@import "./settingsItem/settingsItem.css";
+@import "./turnBackButton/turnBackButton.css";
+
+.user-settings-page {
+    height: 100vh;
+    display: flex;
+
+}
+
+.user-settings-page__user-settings {
+    margin: 0 12px;
+}
+
+.user-settings-page__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    flex-grow: 1;
+}

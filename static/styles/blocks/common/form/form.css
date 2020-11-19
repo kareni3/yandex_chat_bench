@@ -1,0 +1,18 @@
+.form__input-block {
+    margin-bottom: 9px;
+}
+
+.form__submit {
+    margin-top: 32px;
+}
+
+.form__submit_align_center {
+    text-align: center;
+}
+
+.form__input-file-label {
+    color: #CF0365;
+    margin: 0 auto;
+    width: fit-content;
+    cursor: pointer;
+}

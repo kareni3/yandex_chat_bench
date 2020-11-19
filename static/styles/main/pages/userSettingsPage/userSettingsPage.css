@@ -1,0 +1,10 @@
+@import "../../../common/initialStyles/initialStyles.css";
+@import "../../../blocks/perPages/userSettingsPage/userSettingsPage.css";
+@import "../../../blocks/common/text/text.css";
+@import "../../../blocks/common/link/link.css";
+@import "../../../blocks/common/avatar/avatar.css";
+@import "../../../blocks/common/icon/icon.css";
+@import "../../../blocks/common/button/button.css";
+@import "../../../blocks/common/form/form.css";
+@import "../../../blocks/common/modal/modal.css";
+@import "../../../blocks/common/input/input.css";

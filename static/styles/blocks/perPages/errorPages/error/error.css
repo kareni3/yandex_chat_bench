@@ -1,0 +1,15 @@
+.error {
+    text-align: center;
+    color: white;
+}
+
+.error__status {
+    font-size: 4.0rem;
+    margin-bottom: 12px;
+}
+
+.error__description {
+    font-size: 2.0rem;
+    line-height: 1.5;
+    margin-bottom: 45px;
+}

@@ -1,0 +1,26 @@
+.message {
+    padding: 12px;
+    position: relative;
+}
+
+.message__content {
+    line-height: 1.5;
+}
+
+.message__info {
+    margin: 0 -3px -6px 0;
+    display: block;
+    text-align: right;
+}
+
+.message_type_sent {
+    align-self: flex-end;
+    background-color: #CF036515;
+    border-radius: 12px 12px 0 12px;
+}
+
+.message_type_received {
+    align-self: flex-start;
+    background-color: #f6f6f6;
+    border-radius: 12px 12px 12px 0;
+}

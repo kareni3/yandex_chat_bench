@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Yandex Chat - Bench</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/main/pages/userSettingsPage/userSettingsPage.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="user-settings-page">
+    <button class="turn-back-button user-settings-page__turn-back-button">
+        <i class="icon icon__turn-back turn-back__icon"></i>
+    </button>
+
+    <div class="user-settings-page__container">
+        <section class="user-settings user-settings-page__user-settings">
+            <div class="avatar user-settings__avatar">
+                <img class="avatar__image" src="../static/images/common/avatar/avatar_default.png" alt="empty avatar">
+                <button class="avatar__button">Сменить<br>фото</button>
+            </div>
+
+            <h1 class="text text_size_big text_weight_medium user-settings__user-name">Грэта Тунберг</h1>
+
+            <ul class="settings-list user-settings__settings-list">
+                <li class="settings-item settings-list__settings-item">
+                    <span class="text text_weight_medium">Почта</span>
+                    <span class="text text_type_secondary">greta@gret.gre</span>
+                </li>
+
+                <li class="settings-item settings-list__settings-item">
+                    <span class="text text_weight_medium">Логин</span>
+                    <span class="text text_type_secondary">ZaVDV</span>
+                </li>
+
+                <li class="settings-item settings-list__settings-item">
+                    <span class="text text_weight_medium">Имя</span>
+                    <span class="text text_type_secondary">Грета</span>
+                </li>
+
+                <li class="settings-item settings-list__settings-item">
+                    <span class="text text_weight_medium">Фамилия</span>
+                    <span class="text text_type_secondary">Тумберг</span>
+                </li>
+
+                <li class="settings-item settings-list__settings-item">
+                    <span class="text text_weight_medium">Телефон</span>
+                    <span class="text text_type_secondary">8 (999) 999 99 99</span>
+                </li>
+            </ul>
+
+            <div class="user-settings__actions">
+                <a href="#" class="link">Изменить данные</a>
+                <a href="#" class="link">Изменить пароль</a>
+            </div>
+        </section>
+    </div>
+</div>
+
+<div class="modal__container modal_name_upload-file modal_state_opened">
+    <div class="modal">
+        <h1 class="text text_size_big modal__title">Загрузите фото</h1>
+
+        <form name="login" action="#" method="post" class="form form_type_modal">
+
+            <p class="text modal__paragraph modal__paragraph_size_small">
+                <label class="label form__input-file-label">
+                    Выбрать файл
+                    <input class="input input__file" name="myFile" type="file">
+                </label>
+            </p>
+
+            <button type="submit" class="button button_background_filled form__submit">Сохранить</button>
+        </form>
+    </div>
+
+    <div class="modal__background"></div>
+</div>
+
+<script type="module" src="./js/pages/editProfileSettingsPage/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+@import "./authComponent/authComponent.css";
+@import "./authForm/authForm.css";
+
+.auth-page {
+    background: center bottom / cover url('../../../../images/common/backgrounds/authentification_background.png');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-page__auth-component {
+    max-width: 430px;
+}

@@ -1,0 +1,15 @@
+.message-list {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.message-list__message {
+    max-width: 70%;
+    margin: 6px;
+}
+
+.message-list__date {
+    width: 100%;
+    text-align: center;
+    margin: 24px 0 12px 0;
+}

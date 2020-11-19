@@ -1,0 +1,42 @@
+.menu {
+    background-color: white;
+    position: absolute;
+    padding: 12px 0;
+    z-index: 1;
+}
+
+.menu__item {
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 24px;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.menu__item:hover {
+    background-color: #CF036515;
+}
+
+.menu_type_main {
+    border-bottom: 1px solid #EAEAEA;
+    border-right: 1px solid #EAEAEA;
+    top: 48px;
+    left: 0;
+    width: 310px;
+}
+
+.menu_type_user-header {
+    border-bottom: 1px solid #EAEAEA;
+    border-left: 1px solid #EAEAEA;
+    top: 48px;
+    right: 0;
+}
+
+.menu_type_attach {
+    border-right: 1px solid #EAEAEA;
+    border-top: 1px solid #EAEAEA;
+    top: calc(-151px + 12px);
+    left: 0;
+}

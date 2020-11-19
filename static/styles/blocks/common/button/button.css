@@ -1,0 +1,17 @@
+.button {
+    padding: 8px 16px;
+    background-color: #CF036515;
+    color: #CF0365;
+    border: 1px solid #CF0365;
+    width: 100%;
+}
+
+.button_background_filled {
+    background-color: #CF0365;
+    color: white;
+    border: none;
+}
+
+.button_size_middle {
+    max-width: 280px;
+}

@@ -1,0 +1,33 @@
+text {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.text_weight_medium {
+    font-weight: 500;
+}
+
+.text_size_big {
+    font-size: 1.6rem;
+}
+
+.text_size_mini {
+    font-size: 1.2rem;
+}
+
+.text_size_micro {
+    font-size: .9rem;
+}
+
+
+.text_type_secondary {
+    color: #777;
+}
+
+.text_type_error {
+    color: #FF2F2F;
+}
+
+.text_type_main {
+    color: #CF0365;
+}

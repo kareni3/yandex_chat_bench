@@ -1,0 +1,16 @@
+.input-block__input {
+    border-bottom: solid 1px rgba(0, 0, 0, .6);
+    width: 100%;
+}
+
+.input-block__input::placeholder {
+    color: #777;
+}
+
+.input-block__input:focus {
+    border-bottom: solid 1px #CF037D;
+}
+
+.input-block__error {
+    font-size: 1.2rem;
+}
