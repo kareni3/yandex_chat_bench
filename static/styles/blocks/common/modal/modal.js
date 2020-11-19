@@ -1,4 +1,4 @@
-class Modal {
+export default class Modal {
 
     close(selector) {
         const modalContainer = document.querySelector(selector);
@@ -11,5 +11,3 @@ class Modal {
     }
 
 }
-
-export default new Modal();

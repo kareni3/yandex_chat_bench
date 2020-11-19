@@ -1,4 +1,6 @@
-import modal from '../../../styles/blocks/common/modal/modal.js';
+import Modal from '../../../styles/blocks/common/modal/modal.js';
+
+const modal = new Modal();
 
 const modalNames = [
     'modal_name_upload-file',
